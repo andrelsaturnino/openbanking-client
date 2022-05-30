@@ -28,6 +28,7 @@ $ npm install
 
 # Execute a aplicação
 $ npm run serve
+```
 
 ### 🛠 Tecnologias
 
@@ -55,6 +56,8 @@ Feito com ❤️ por André Saturnino 👋🏽 Entre em contato!
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+```
 
 ```
 
