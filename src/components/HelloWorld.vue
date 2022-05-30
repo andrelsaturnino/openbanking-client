@@ -85,7 +85,7 @@
 </template>
 
 <script>
-import BancoConsenstimento from "./BancoConsenstimento.vue";
+import BancoConsenstimento from "./BancoConsentimento.vue";
 import MeusDados from "./MeusDados.vue";
 import ProdutosCliente from "./ProdutosCliente.vue";
 import PropostasCliente from "./PropostasCliente.vue";

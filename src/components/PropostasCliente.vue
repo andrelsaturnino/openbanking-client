@@ -87,10 +87,7 @@ export default {
       this.keyClientes = Object.keys(obj[0]);
     },
     contratar(item) {
-      //console.log(this.dados.clienteId);
-
       item.clienteId = this.dados.clienteId;
-      //console.log(item);
 
       const oldProdutos = this.dados.produtos;
 
@@ -99,8 +96,6 @@ export default {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ item, oldProdutos }),
       };
-
-      // console.log(requestOptions);
 
       fetch("http://localhost:3000/relacionamento/contratar", requestOptions)
         .then((res) => {
